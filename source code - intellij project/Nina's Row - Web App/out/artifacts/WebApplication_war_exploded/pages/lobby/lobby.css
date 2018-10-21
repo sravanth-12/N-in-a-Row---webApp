@@ -1,0 +1,111 @@
+body{
+    background-color:#AFEEEE;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.headline {
+    text-align: center;
+    color: #778899;
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.logoutForm,.uploadFileDiv{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.logoutButton {
+    color: darkslategrey;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.uploadFileForm{
+    padding-top: 5px;
+}
+.uploadFileHeadLine {
+    color: #204d74;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.fileUpload {
+    color: darkslategrey;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.submitFile {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.parent{
+    width: 95%;
+}
+
+.tableDiv {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    white-space: nowrap;
+    padding-left: 10px;
+    float: left;
+    display:inline-block;
+}
+
+#tableForm{
+    display:inline-block;
+}
+
+#roomsTable th, #roomsTable td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#roomsTable tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+#roomsTable tr:hover {
+    background-color: lightslategrey;
+    color: darkblue;
+}
+
+#roomsTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: skyblue;
+    color: black;
+}
+
+.usersListDiv, #usersListDiv {
+    /*margin-left: 75%;*/
+    float: left;
+    margin-left: 10px;
+}
+
+.usersHeadline {
+    margin: auto;
+    color: #204d74;;
+    font-size: 26px;
+    font-family: sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*.usersListDiv{*/
+    /*margin: auto;*/
+/*}*/
+
+th {
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+body{
+    background-color:#AFEEEE;
+}
+
+.headline{
+    text-align: left;
+    color: #778899;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.btn btn-info btn-lg active{
+    text-align: center;
+}

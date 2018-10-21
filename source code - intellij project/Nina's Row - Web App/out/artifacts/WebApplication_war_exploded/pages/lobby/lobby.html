@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lobby</title>
+    <script src="../../common/jquery-2.0.3.min.js"></script>
+    <script src="../../common/context-path-helper.js"></script>
+    <script src="Lobby.js"></script>
+    <link rel="stylesheet" href="../../common/bootstrap.min.css">
+    <link rel="stylesheet" href="lobby.css">
+</head>
+
+<body>
+<form class="logoutForm" action="../../game/logout" method="get">
+    <input class="logoutButton" type="submit" value="Logout"/>
+</form>
+<div class="uploadFileDiv">
+<h2 class="headline">Welcome to Nina's Row lobby!</h2>
+<form class=uploadFileForm action="../../new_room" enctype="multipart/form-data" method="POST">
+    <h3 class="uploadFileHeadLine" id="usersHeadline">To upload a new game:</h3>
+    <input class="fileUpload" type="file" name="file" id="fileUpload" accept="text/xml" required align="left"/>
+    <input class="submitFile" type="submit" value="load XML file" align="left"/>
+</form>
+</div>
+<br><br>
+<div class="parent">
+
+    <div class="tableDiv" id="roomsTableDiv">
+        <form id="tableForm" action="../../enter_room" method="GET">
+            <table id="roomsTable">
+                <tr>
+                    <th>Game Name</th>
+                    <th>Owner</th>
+                    <th>Rows</th>
+                    <th>Columns</th>
+                    <th>Target</th>
+                    <th>Variant</th>
+                    <th>Status</th>
+                    <th>Players</th>
+                    <th>Enter Room</th>
+                </tr>
+                <tbody id="roomsList">
+                </tbody>
+            </table>
+        </form>
+    </div>
+
+    <div id="usersListDiv">
+        <h3 class="usersHeadline">Online Users:</h3>
+        <ul id="usersList">
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>

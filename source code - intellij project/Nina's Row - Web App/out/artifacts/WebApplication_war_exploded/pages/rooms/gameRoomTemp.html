@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Name</title>
+    <link rel="stylesheet" type="text/css" href="game_room.css"/>
+</head>
+    <body>
+    <input type="hidden" id="gameInfo" value='<%=gameInfo%>'/>
+
+    <div class="main">
+        <div class="gameNameDiv">
+            <h2 class="gameName">Game Name</h2>
+        </div>
+
+        <!--LEFT-->
+        <div class="left">
+            <div class="quitGameDiv" id="quitDiv">
+                <form class="quitForm" action="quit_player" method="GET">
+                    <input type="submit" value="Quit Game"/>
+                </form>
+            </div>
+            <div class="currentPlayerDiv">
+                <h3 class="currentPlayerHeadline">Current Player:</h3>
+                <h3 class="currentPlyaerLabel">Noam</h3>
+            </div>
+            <div class="players">
+                <table class="playersTable">
+                    <tr class="tableHeadlines">
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Color</th>
+                        <th>Turns</th>
+                    </tr>
+                    <tbody class="playersList">
+                    <tr>
+                        <td>ssssssssName</td>
+                        <td>Typssssssssse</td>
+                        <td>Color</td>
+                        <td>Turns</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!--RIGHT-->
+        <div class="right">
+            <div class="radioButtons">
+                <!--<form >-->
+                <label class="popinabel"><input type="radio" value="Popin" name="turnType"
+                    checked="checked"/>Popin</label>
+                <label class="popoutLabel"><input type="radio" value="Popout" name="turnType"/>Popout</label>
+                <!--</form>-->
+            </div>
+
+            <div id="boardDiv>">
+                <table class="boardTable" id="boardTable">
+                    <tr><th row="0" col="0"></th><th row="0" col="1"></th><th row="0" col="2"></th><th row="0" col="3"></th><th row="0" col="4"></th><th row="0" col="5"></th><th row="0" col="6"></th></tr><tr><th row="1" col="0"></th><th row="1" col="1"></th><th row="1" col="2"></th><th row="1" col="3"></th><th row="1" col="4"></th><th row="1" col="5"></th><th row="1" col="6"></th></tr><tr><th row="2" col="0"></th><th row="2" col="1"></th><th row="2" col="2"></th><th row="2" col="3"></th><th row="2" col="4"></th><th row="2" col="5"></th><th row="2" col="6"></th></tr><tr><th row="3" col="0"></th><th row="3" col="1"></th><th row="3" col="2"></th><th row="3" col="3"></th><th row="3" col="4"></th><th row="3" col="5"></th><th row="3" col="6"></th></tr><tr><th row="4" col="0"></th><th row="4" col="1"></th><th row="4" col="2"></th><th row="4" col="3"></th><th row="4" col="4"></th><th row="4" col="5"></th><th row="4" col="6"></th></tr><tr><th row="5" col="0"></th><th row="5" col="1"></th><th row="5" col="2"></th><th row="5" col="3"></th><th row="5" col="4"></th><th row="5" col="5"></th><th row="5" col="6"></th></tr></table>
+            </table>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

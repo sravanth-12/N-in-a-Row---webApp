@@ -1,0 +1,45 @@
+body {
+    background-color: #AFEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+.signupForm {
+    position: relative;
+    text-align: center;
+}
+
+.headline {
+    text-align: center;
+    color: #778899;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.inputText {
+    background-color: #B0E0E6;
+    border: 3px double #008080;
+    width: 230px;
+}
+
+.computerRadio {
+    color: darkslategrey;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.humanRadio {
+    color: darkslategrey;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.submitButton {
+    color: darkslategrey;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
